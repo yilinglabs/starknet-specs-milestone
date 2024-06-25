@@ -4,6 +4,46 @@
 
 This repository tracks the progress of the [Starknet-Specs](https://github.com/joohhnnn/Starknet-Specs) project. It highlights key milestones and weekly progress over a three-month period.
 
+## Goals
+
+The core purpose of Starknet-Specs is to assist developers in easily understanding the operational mechanisms of Starknet at the protocol level. Therefore, Starknet-Specs will describe the Starknet protocol in a standardized document format. Additionally, we will write a series of articles explaining how major projects, such as Pathfinder, implement this protocol to help developers better master the Starknet protocols.
+
+Below is an outline of the planning goals for Starknet-Specs, initially focusing on protocols related to core types and nodes, followed by bridges, and finally mechanisms and ZK verifier:
+
+
+- Data structures
+  - Transaction
+  - World State
+
+- Nodes
+  - System Config
+  - Execution Engine - Starknet OS
+  - Carro VM, such like the opcodes, syscalls, etc.
+  - Rollup Node
+    - Rollup Node and Sequencer
+    - Rollup Node and Ethereum
+    - Rollup Node P2P
+  - Sequencer
+    - Block production
+    - Block propagation
+
+- Bridges
+  - Deposits
+  - Withdrawals
+
+- Mechanisms
+  - State diff
+  - Fee market
+  - Block finality
+  - Batch proof
+  - ...
+
+- ZK Verifier
+  - Setup
+  - Proof
+  - Verifier contracts
+
+
 ## Update Frequency
 
 - Project updates occur bi-weekly.
@@ -19,32 +59,53 @@ This repository tracks the progress of the [Starknet-Specs](https://github.com/j
 
 - Dive deep into existing documentation and code architecture.
 - Complete the design frameworks for summaries and glossaries.
-
-### Weeks 3-4
-
 - Complete all preliminary supplements, such as:
   - What is Ethereum scalability?
   - What is a zk rollup?
   - Protocol Guarantee
   - General Terms
 
+### Weeks 3-4
+
+- Data structures
+  - Transaction
+  - World State
+
+- Nodes
+  - Rollup Node
+    - Rollup Node and Sequencer
+    - Rollup Node and Ethereum
+    - Rollup Node P2P
+  - Sequencer
+    - Block production
+    - Block propagation
+
 ### Weeks 5-7
 
-- Focus on sequencer-related content
-  - Transaction formats
-  - The refinement of internal components.
-  - Batch handler
-  - Execution
-  - Block generation
-  - Derivation
+- Nodes
+  - System Config
+  - Execution Engine - Starknet OS
+  - Carro VM, such like the opcodes, syscalls, etc.
 
 ### Weeks 8-9
 
-- Cover prover-related content. （Detailed planning after the third week）
+- Bridges
+  - Deposits
+  - Withdrawals
+
+- Mechanisms
+  - State diff
+  - Fee market
+  - Block finality
+  - Batch proof
+  - ...
 
 ### Weeks 10-11
 
-- Discuss the L1 core contract and practical examples of the transaction life cycle.
+- ZK Verifier
+  - Setup
+  - Proof
+  - Verifier contracts
 
 ### Week 12
 
