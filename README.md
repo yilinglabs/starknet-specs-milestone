@@ -28,11 +28,17 @@ This repository tracks the progress of the [Starknet-Specs](https://github.com/j
 
 ### Weeks 5-7
 
-- Focus on sequencer-related content, including transaction formats and the refinement of internal components.
+- Focus on sequencer-related content
+  - Transaction formats
+  - The refinement of internal components.
+  - Batch handler
+  - Execution
+  - Block generation
+  - Derivation
 
 ### Weeks 8-9
 
-- Cover prover-related content.
+- Cover prover-related content. （Detailed planning after the third week）
 
 ### Weeks 10-11
 
