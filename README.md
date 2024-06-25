@@ -13,6 +13,8 @@ This repository tracks the progress of the [Starknet-Specs](https://github.com/j
 
 **Duration:** Three months, totaling 12 weeks.
 
+**Disclaimer:** All current milestones represent preliminary plans. The official agenda will be finalized with details before Week 4. However, it is important to note that these timelines are subject to change due to unforeseen circumstances beyond our control that may arise during the execution of tasks.
+
 ### Weeks 1-2
 
 - Dive deep into existing documentation and code architecture.
